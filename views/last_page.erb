@@ -1,22 +1,21 @@
 <form method="post" action="last_page">
      <link rel="stylesheet" type="text/css" href="/css/last_page.css">    
 <div class="ty">
-    <%=p "Thank You"%>
-    <br><br>
-    </div>
-<div class="results">
+    <%=p "Thank You!"%>
     <%=p "#{first_name} #{last_name}"%>
     <br><br>
+</div>
+<div class="address_results">
+    <%=p "Your address is:"%>
     <%=p "#{street}"%>
-    <br><br>
     <%=p "#{city}"%>
-    <br><br>
     <%=p "#{state}"%>
-    <br><br>
     <%=p "#{zip}"%>
     <br><br>
-    <% total = num1.to_f+num2.to_f+num3.to_f%>   
-    <%=p "and the sum of your favorite numbers is #{total} "%>
+</div>
+<div class="fav_num_total">
+    <%total = num1.to_f+num2.to_f+num3.to_f%>   
+    <%=p "The sum of your favorite numbers is #{total}. "%>
 </div>
     <div class="end_container">
         <input type="hidden" name="first_name" value="<%=first_name%>" class="name_input">
