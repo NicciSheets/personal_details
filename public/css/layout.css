@@ -11,5 +11,6 @@ body {
 
 .head_text{
 	font-family: myOstrichBold;
-
+    font-size: 85px;
+    color: white;
 }
