@@ -17,10 +17,10 @@ body {
     text-shadow: 2px 2px 5px purple;
 }
 
-@font-face {
+/*@font-face {
 	font-family: myOstrichPlaceholder;
 	src: url(/img/ostrich-sans-master/ostrichsans-light.otf);
-}
+}*/
 
 .footer_text {
 		font-family: myOstrichBold, helvetica, sans-serif;
