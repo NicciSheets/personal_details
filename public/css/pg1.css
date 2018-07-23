@@ -17,4 +17,10 @@
 
 .name_input {
 	font-family: myOstrichPlaceholder, helvetica, sans-serif;
+	width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 6e158a;
 }
