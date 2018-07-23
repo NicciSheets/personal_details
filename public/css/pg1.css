@@ -28,8 +28,20 @@
     background-color: hsla(276, 61%, 58%, 0.45);
     color: white;
     text-align: center;
+    border-radius: 2%;
 }
 
 ::placeholder {
 		color: white;
+}
+
+.button {
+		color: #41207d;
+    background: white;
+    font-family: myOstrichPlaceholder, helvetica, sans-serif;
+    padding: 3px 8px;
+    font-size: 13px;
+    border-radius: 5%;
+    border: none;
+
 }
