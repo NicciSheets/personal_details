@@ -8,17 +8,17 @@
 
 .address_input {
 	    font-family: helvetica, sans-serif;
-    width: 50%;
+    /*width: 50%;*/
     padding: 12px 20px;
     margin: 12px 0;
     box-sizing: border-box;
-    font-size: 18px;
+    /*font-size: 18px;
     border-color: #41207d;
     border-width: 2px;
-    /* background-color: hsla(276, 61%, 58%, 0.45); */
+    background-color: hsla(276, 61%, 58%, 0.45); 
     color: white;
     text-align: center;
-    border-radius: 2%;
+    border-radius: 2%;*/
 }
 
 ::placeholder {
@@ -38,16 +38,40 @@
 
 .street_input {
 	background-color: hsla(276, 61%, 58%, 0.45);
+	border-color: #41207d;
+    border-width: 2px
+    color: white;
+    text-align: center;
+    border-radius: 2%;
+    font-size: 18px;
 }
 
 .city_input {
 	background-color: hsla(276, 61%, 58%, 0.45);
+	border-color: #41207d;
+    border-width: 2px
+    color: white;
+    text-align: center;
+    border-radius: 2%;
+    font-size: 18px;
 }
 
 .state_input {
 	background-color: hsla(276, 61%, 58%, 0.45);
+	border-color: #41207d;
+    border-width: 2px
+    color: white;
+    text-align: center;
+    border-radius: 2%;
+    font-size: 18px;
 }
 
 .zip_input {
 	background-color: hsla(276, 61%, 58%, 0.45);
+	border-color: #41207d;
+    border-width: 2px
+    color: white;
+    text-align: center;
+    border-radius: 2%;
+    font-size: 18px;
 }
