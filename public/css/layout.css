@@ -10,7 +10,8 @@ body {
 }
 
 .head_text {
-	font-family: myOstrichBold;
+	font-family: myOstrichBold, helvetica, sans-serif;
     font-size: 85px;
     color: white;
+    text-align: center
 }
