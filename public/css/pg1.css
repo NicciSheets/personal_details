@@ -4,9 +4,10 @@
 }
 
 .input_names_container {
-	    font-family: myOstrichMedium, helvetica, sans-serif;
+	        font-family: myOstrichMedium, helvetica, sans-serif;
     font-size: 23px;
     color: white;
+    margin-top: 20px;
 }
 
 @font-face {
@@ -15,5 +16,5 @@
 }
 
 .name_input {
-	font-family: myOstrichPlaceholder, helvitica, sans-serif;
+	font-family: myOstrichPlaceholder, helvetica, sans-serif;
 }
