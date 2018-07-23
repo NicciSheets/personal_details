@@ -1,13 +1,13 @@
 @font-face {
-	font-family: myOstrichMedium;
+		font-family: myOstrichMedium;
 	src: url(/img/ostrich-sans-master/ostrichsansrounded-medium.otf);
 }
 
 .input_names_container {
-	        font-family: myOstrichMedium, helvetica, sans-serif;
-    font-size: 23px;
-    color: white;
-    margin-top: 20px;
+		font-family: myOstrichMedium, helvetica, sans-serif;
+    font-size: 30px;
+    color: #41207d;
+    margin-top: 16px;
 }
 
 @font-face {
@@ -16,11 +16,19 @@
 }
 
 .name_input {
-	font-family: myOstrichPlaceholder, helvetica, sans-serif;
-	width: 50%;
+    	font-family: myOstrichPlaceholder, helvetica, sans-serif;
+    width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: none;
-    border-bottom: 6e158a;
+    font-size: 18px;
+    border-color: #41207d;
+    border-width: 2px;
+    background-color: hsla(276, 61%, 58%, 0.45);
+    color: white;
+    text-align: center;
+}
+
+::placeholder {
+		color: white;
 }
