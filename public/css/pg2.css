@@ -7,15 +7,15 @@
 }
 
 .address_input {
-	font-family: helvetica, sans-serif;
-    width: 20%;
+	    font-family: helvetica, sans-serif;
+    width: 50%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 12px 0;
     box-sizing: border-box;
     font-size: 18px;
     border-color: #41207d;
     border-width: 2px;
-    background-color: hsla(276, 61%, 58%, 0.45);
+    /* background-color: hsla(276, 61%, 58%, 0.45); */
     color: white;
     text-align: center;
     border-radius: 2%;
@@ -34,4 +34,20 @@
     font-size: 13px;
     border-radius: 5%;
     border: none;
+}
+
+.street_input {
+	background-color: hsla(276, 61%, 58%, 0.45);
+}
+
+.city_input {
+	background-color: hsla(276, 61%, 58%, 0.45);
+}
+
+.state_input {
+	background-color: hsla(276, 61%, 58%, 0.45);
+}
+
+.zip_input {
+	background-color: hsla(276, 61%, 58%, 0.45);
 }
