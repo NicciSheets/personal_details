@@ -15,3 +15,9 @@ body {
     color: white;
     text-align: center
 }
+
+@font-face {
+	font-family: myOstrichPlaceholder;
+	src: url(/img/ostrich-sans-master/ostrichsans-light.otf);
+}
+
