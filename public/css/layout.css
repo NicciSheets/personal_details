@@ -1,5 +1,5 @@
 body {
-	text-align: center;
+		text-align: center;
 	background-image: url(/img/teal-watercolor.jpg);
     background-size: cover;
 }
@@ -10,10 +10,11 @@ body {
 }
 
 .head_text {
-	font-family: myOstrichBold, helvetica, sans-serif;
+		font-family: myOstrichBold, helvetica, sans-serif;
     font-size: 85px;
     color: white;
     text-align: center
+    text-shadow: 2px 2px 5px purple;
 }
 
 @font-face {
