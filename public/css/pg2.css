@@ -32,7 +32,8 @@
 .street_input {
 	    background-color: hsla(276, 61%, 58%, 0.45);
     border-color: #41207d;
-    border-width: 2px color: white;
+    border-width: 2px; 
+    color: white;
     text-align: center;
     border-radius: 2%;
     font-size: 24px;
@@ -41,7 +42,8 @@
 .city_input {
 		background-color: hsla(276, 61%, 58%, 0.45);
     border-color: #41207d;
-    border-width: 2px color: white;
+    border-width: 2px;
+    color: white;
     text-align: center;
     border-radius: 2%;
     font-size: 24px;
@@ -50,7 +52,8 @@
 .state_input {
 	background-color: hsla(276, 61%, 58%, 0.45);
     border-color: #41207d;
-    border-width: 2px color: white;
+    border-width: 2px;
+    color: white;
     text-align: center;
     border-radius: 2%;
     font-size: 24px;
@@ -60,7 +63,8 @@
 .zip_input {
 	background-color: hsla(276, 61%, 58%, 0.45);
     border-color: #41207d;
-    border-width: 2px color: white;
+    border-width: 2px;
+    color: white;
     text-align: center;
     border-radius: 2%;
     font-size: 24px;
