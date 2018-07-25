@@ -17,11 +17,6 @@ body {
     text-shadow: 2px 2px 5px purple;
 }
 
-/*@font-face {
-	font-family: myOstrichPlaceholder;
-	src: url(/img/ostrich-sans-master/ostrichsans-light.otf);
-}*/
-
 .footer_text {
 		font-family: myOstrichBold, helvetica, sans-serif;
     font-size: 16px;
@@ -32,5 +27,44 @@ body {
     height: 40px;
     width: 100%;
     text-shadow: 1px 1px 3px purple;
+}
+
+input, p {
+    font-family: helvetica, sans-serif;
+    width: 20%;
+    padding: 8px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    border-color: #41207d;
+    border-width: 2px;
+    background-color: hsla(276, 61%, 58%, 0.45);
+    color: white;
+    text-align: center;
+    border-radius: 2%;
+}
+
+::placeholder {
+        color: white;
+    opacity: 0.65;
+}
+
+.button {
+        color: #41207d;
+    background: #ffffffcf;
+    font-family: helvetica, sans-serif;
+    padding: 3px 8px;
+    font-size: 13px;
+    border-radius: 5%;
+    border: none;
+
+}
+
+.input_container {
+        font-family: helvetica, sans-serif;
+    font-size: 30px;
+    color: #41207d;
+    margin-top: 16px;
+    text-shadow: 1px 1px 3px white;
 }
 

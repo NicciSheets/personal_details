@@ -1,10 +1,10 @@
 <link rel="stylesheet" type="text/css" href="/css/pg1.css">
 <form method="post" action="name">
-	<div class="input_names_container">
+	<div class="input_container">
 		<%=p "Please enter your full name:"%>
 		<br>
-        <input type="text" name="first_name" class="name_input" placeholder="First Name">
-        <input type="text" name="last_name" class="name_input" placeholder="Last Name">
+        <input type="text" name="first_name" class="name_input" placeholder="First Name" autocomplete="off" requirec autofocus>
+        <input type="text" name="last_name" class="name_input" placeholder="Last Name" required autocomplete="off">
 	</div>
 	<div class="here">
 	<button class="button">Submit</button>
